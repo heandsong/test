@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.com.song">
+	<class name="Product">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="partNumber" ></property>
+		<property name="productName"></property>
+		<property name="promotionPrice"></property>
+		<property name="netPrice"></property>
+		<property name="vendorName"></property>
+		<property name="productCatagory"></property>
+		<property name="productInfo" length="2000"></property>
+		<property name="productImage" length="1000"></property>
+		<property name="storeId"></property>
+		<property name="catalogId"></property>
+		<property name="vendor"></property>
+	</class>
+
+</hibernate-mapping>
